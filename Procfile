@@ -1,1 +1,1 @@
-web:gunicorn evaluation.wsgi --log-file -
+web: gunicorn evaluation.wsgi --log-file -
