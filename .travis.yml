@@ -1,15 +1,9 @@
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-  - node_modules
-script:
-  - npm run build
 deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $github_token
-  local_dir: build
-  on:
-    branch: master
+
+  provider: heroku
+
+  testapibsale: pdes-flappernews
+
+  api_key:
+
+    secure: 9bd2fab9-209d-4446-a39b-d176ea41090a
