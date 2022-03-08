@@ -36,20 +36,9 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 
 # **Instalación en LOCAL**
 
-Al clonar el repositorio y antes de inicializar el server es MUY IMPORTANTE
+Crear y activar entorno virtual
 
-<aside>
-🚨 Eliminar el archivo **`bs-config.js` este forma parte del deploy en remoto**
-
-</aside>
-
-<aside>
-🚨 Cambiar en el archivo `scripts.js`la variable `base_URL` que vendrá con el valor del deploy. 
-Se debe colocar en su lugar  “http://127.0.0.1:8000/”
-
-</aside>
-
-Instalar las dependencias con 
+Instalar las dependencias
 
 <aside>
 🖥️ `pip install -r requirements.txt`
