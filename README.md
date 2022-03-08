@@ -16,21 +16,21 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 
 - Se filtra por productos
 - Se asignaron 12 cards por cada pagina
-- Link donde visualizar =
+- Link donde visualizar:
 
 [Product List](https://testapibsale.herokuapp.com/products/)
 
 /groups/
 
 - Se filtra por grupo
-- link donde visualizar =
+- link donde visualizar:
 
 [Category List](https://testapibsale.herokuapp.com/categories/)
 
 /categories/
 
 - Se filtra por categoría
-- Link donde visualizar =
+- Link donde visualizar:
 
 [Category List](https://testapibsale.herokuapp.com/categories/)
 
