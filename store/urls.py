@@ -8,7 +8,7 @@ router = routers.DefaultRouter()
 
 # All products, no filter
 
-router.register(r'list', views.ProductViewSet)
+
 router.register(r'products', views.ProductViewSet)
 
 # Products grouped by category, no filter
@@ -17,6 +17,7 @@ router.register(r'groups', views.GroupViewSet)
 
 # Todas las cateogiras
 router.register(r'categories', views.CategoryViewSet)
+router.register(r'list', views.ProductViewSet)
 
 
 
