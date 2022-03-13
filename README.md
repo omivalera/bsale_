@@ -1,6 +1,7 @@
 # Bsale_ Backend Doc
 
 La implementación de esta API-REST fue mediante Django-rest y conectada una base de datos MySQL.
+[Heroku Deploy](https://testapibsale.herokuapp.com/)
 
 ## Endpoints
 
