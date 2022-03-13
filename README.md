@@ -21,14 +21,15 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 [Product List](https://testapibsale.herokuapp.com/products/)
 
 /groups/
-
+- Recibe como parametro {name} -ejemplo de uso : https://testapibsale.herokuapp.com/list/?search=mani
+- los {} indican en que parte de la ruta se invoca ese parametro : https://testapibsale.herokuapp.com/list/?search={mani} (Al momento de la prueba quitar los {})
 - Se filtra por grupo
 - link donde visualizar:
 
 [Category List](https://testapibsale.herokuapp.com/categories/)
 
 /categories/
-
+- Recibe como parametro {category_id} -ejemplo de uso :https://testapibsale.herokuapp.com/list/1/?page=1&search=&ordering=category_id
 - Se filtra por categoría
 - Link donde visualizar:
 
