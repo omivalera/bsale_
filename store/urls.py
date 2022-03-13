@@ -7,26 +7,26 @@ from .views import ProductList
 router = routers.DefaultRouter()
 
 # All products, no filter
-# 12 products per page
+
+router.register(r'list', views.ProductViewSet)
 router.register(r'products', views.ProductViewSet)
 
 # Products grouped by category, no filter
-# 1 category per page
+# 1 categoris por pagina
 router.register(r'groups', views.GroupViewSet)
 
-# All categories of products
+# Todas las cateogiras
 router.register(r'categories', views.CategoryViewSet)
+
+
+
 
 urlpatterns = [
     path('', include(router.urls)),
     
-    # 12 products per page
-    # Regex search
+
     path('list/', ProductList.as_view(), name='postsearch'),
-    # + Filter by category
-    # + Order by category id, name, price
-    # Example of use: 
-    # http://hosturl/list/1/?page=1&search=&ordering=category_id
+
     
     path('list/<int:category_id>/', ProductList.as_view()),
 ]
