@@ -19,7 +19,7 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 
 - Se filtra por todos los productos y categorias
 - Recibe como parametro {name} -ejemplo de uso : https://testapibsale.herokuapp.com/list/?search=mani
-- Respuesta desde: https://testapibsale.herokuapp.com/list/?search=mani
+- Respuesta:
 ```json
 {
             "id": 53,
@@ -41,7 +41,7 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 
 - Se filtra por todos los productos
 - Recibe como parametro {name} -ejemplo de uso : https://testapibsale.herokuapp.com/list/?search=coca
-- Respuesta desde: https://testapibsale.herokuapp.com/list/?search=coca
+- Respuesta:
 ```json
 {
     "count": 3,
@@ -87,7 +87,7 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 /groups/
 - Recibe como parametro {category_id} con valor Integer -ejemplo de uso : https://testapibsale.herokuapp.com/groups/2   
 
-- Respuesta desde: https://testapibsale.herokuapp.com/groups/2 
+- Respuesta:
 
         
 ```json
@@ -141,126 +141,7 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
                     "discount": 20,
                     "category_id": 2
                 },
-                {
-                    "id": 14,
-                    "name": "PISCO ESPIRITU DEL ELQUI 40º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/espiritu8936.jpg",
-                    "price": 5990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 15,
-                    "name": "PISCO ESPIRITU DEL ELQUI 45º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/espiritu8957.jpg",
-                    "price": 6990.0,
-                    "discount": 5,
-                    "category_id": 2
-                },
-                {
-                    "id": 16,
-                    "name": "PISCO HORCON QUEMADO 35º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/horcon359049.jpg",
-                    "price": 6990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 17,
-                    "name": "PISCO HORCON QUEMADO 40º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/horcon409062.jpg",
-                    "price": 7990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 18,
-                    "name": "PISCO HORCON QUEMADO 46º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/horcon469075.jpg",
-                    "price": 8990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 19,
-                    "name": "PISCO MISTRAL 35º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/mistral359200.jpg",
-                    "price": 4990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 20,
-                    "name": "PISCO MISTRAL 40º ",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/mistral409215.jpg",
-                    "price": 4990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 21,
-                    "name": "PISCO TRES ERRES 35º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/rrr359305.jpg",
-                    "price": 4590.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 22,
-                    "name": "PISCO TRES ERRES 40º",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/rrr409319.jpg",
-                    "price": 4990.0,
-                    "discount": 20,
-                    "category_id": 2
-                },
-                {
-                    "id": 87,
-                    "name": "PISCO MISTRAL 35°",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/358978.jpg",
-                    "price": 4990.0,
-                    "discount": 0,
-                    "category_id": 2
-                },
-                {
-                    "id": 88,
-                    "name": "PISCO MISTRAL GRAN NOBEL 40°",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/grannobel9104.jpg",
-                    "price": 19900.0,
-                    "discount": 0,
-                    "category_id": 2
-                },
-                {
-                    "id": 89,
-                    "name": "PISCO MISTRAL 40°",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/409346.jpg",
-                    "price": 4990.0,
-                    "discount": 0,
-                    "category_id": 2
-                },
-                {
-                    "id": 90,
-                    "name": "PISCO MISTRAL 46°",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/469463.jpg",
-                    "price": 7890.0,
-                    "discount": 0,
-                    "category_id": 2
-                },
-                {
-                    "id": 91,
-                    "name": "PISCO MISTRAL NOBEL 40°",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/nobel409551.jpg",
-                    "price": 19990.0,
-                    "discount": 0,
-                    "category_id": 2
-                },
-                {
-                    "id": 92,
-                    "name": "PISCO MISTRAL NOBEL 46",
-                    "url_image": "https://dojiw2m9tvv09.cloudfront.net/11132/product/nobelanejado9639.jpg",
-                    "price": 15990.0,
-                    "discount": 15,
-                    "category_id": 2
-                }
+            
 ```
 
 - Se filtra por category_id de categoria
@@ -270,7 +151,7 @@ La implementación de esta API-REST fue mediante Django-rest y conectada una bas
 
 /categories/
 - Recibe como parametro {category_id} que tiene como valor un Integer -ejemplo de uso :https://testapibsale.herokuapp.com/categories/2
-- Respuesta desde https://testapibsale.herokuapp.com/categories/2
+- Respuesta:
 ```json
 {
     "id": 2,
